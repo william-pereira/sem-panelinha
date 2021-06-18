@@ -1,0 +1,265 @@
+.container {
+  width: 1062px;
+  margin: 0 auto;
+}
+
+section {
+  background: #4762fb;
+  margin-top: 70px;
+}
+footer {
+  background: #262222;
+  height: 100px;
+}
+.proximos {
+  color: #4762fb;
+  text-transform: uppercase;
+}
+/* Header - Nav */
+
+.fundo-gradient {
+  background: linear-gradient(45deg, #dddddd, #125d98, #3c8dad, #f5a962);
+  background-size: 300%, 300%;
+  animation: colors 5s ease infinite;
+}
+header {
+  background: #47485028;
+  height: 110px;
+}
+#titulo {
+  display: block;
+  float: left;
+  padding-right: 20px;
+  font-family: "Bell MT", Times, serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  color: #ffffff;
+}
+.titulo-times {
+  text-transform: uppercase;
+  color: white;
+}
+.img-header {
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding-top: 4px;
+  padding-right: 50px;
+}
+#conjunto-img {
+  padding-right: 50px;
+}
+/* Sub-titulo */
+
+main > p {
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 34px;
+}
+#players {
+  color: #746db1;
+}
+
+.subtitulo-resultados {
+  padding-left: 500px;
+  padding-bottom: 20px;
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 34px;
+}
+.subtitulo-resultados p span {
+  padding-left: 20px;
+}
+
+/* Conteúdo */
+.formulario {
+  float: left;
+  margin-top: 57px;
+  width: 450px;
+  margin-left: 90px;
+}
+.resultados-nomes {
+  float: left;
+  min-height: 202px;
+  margin-left: 144px;
+  margin-top: 150px;
+  width: 600px;
+}
+.resultados-nomes > p {
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 24px;
+}
+
+#texto-form {
+  display: inline-block;
+  margin-top: 8px;
+}
+#random {
+  font-size: 24px;
+  font-family: "Century Gothic", "Times", "serif";
+  padding-top: 30px;
+  color: #f5f5f5;
+}
+
+.nomes-adicionados {
+  padding: 5px;
+  font-size: 24px;
+  font-family: "Century Gothic", "Times", "serif";
+  color: #4762fb;
+}
+
+.quantidade-por-time {
+  clear: both;
+}
+
+.formulario-nome {
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 24px;
+  padding-right: 10px;
+  color: #4762fb;
+}
+.times {
+  white-space: pre;
+}
+.div-times {
+  margin-right: 84px;
+  width: 128px;
+  margin-top: 40px;
+  color: white;
+  font-size: 30px;
+}
+#escolha-times {
+  float: right;
+  padding-left: 10px;
+}
+.painel-times {
+  width: 850px;
+  margin: 0 auto;
+}
+#validacao {
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 16px;
+  color: red;
+  text-align: center;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+#nome {
+  font-size: 24px;
+  border: 2px solid #4762fb;
+  background-color: transparent;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 23px;
+  outline: 0;
+  width: 221px;
+  text-align: center;
+  height: 34px;
+  color: #4762fb;
+  font-family: "Century Gothic", "Times", "serif";
+}
+
+.btn-form {
+  background-color: transparent;
+  width: 57px;
+  height: 31px;
+  border: 2px solid #4762fb;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #4762fb;
+  float: right;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+.btn-form:hover {
+  border: 2px solid #16a437;
+  color: #0e0f0e;
+  background-color: #16a437;
+}
+#btn-remover:hover {
+  color: #0e0f0e;
+  border: 2px solid #ef3434;
+  background-color: #ef3434;
+}
+.linha-form {
+  margin-top: 10px;
+  color: #4762fb;
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 16px;
+  padding-left: 100px;
+}
+.btn-form:active {
+  background-color: #242323;
+  color: white;
+}
+
+#opcoes {
+  background-color: transparent;
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 24px;
+  border-radius: 16px;
+  border: 2px solid #4762fb;
+  padding-left: 5px;
+  color: #4762fb;
+  width: 60px;
+}
+.btn-enviar {
+  margin-top: 66px;
+  font-size: 24px;
+  width: 170px;
+  height: 50px;
+  font-family: "Century Gothic", "Times", "serif";
+  background-color: transparent;
+  border: 2px solid #4762fb;
+  border-radius: 23px;
+  text-transform: uppercase;
+  color: #4762fb;
+  letter-spacing: 2px;
+  display: block;
+  margin: 0px auto 0 auto;
+  transition: 0.5s;
+}
+.btn-enviar:hover {
+  background: #4762fb;
+  color: white;
+}
+.qtde-time {
+  margin-top: 83px;
+  float: left;
+  margin-left: 100px;
+}
+/* Abaixo dos resultados */
+
+#resultado_times {
+  font-family: "Century Gothic", "Times", "serif";
+  font-size: 24px;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+/* Estiliazação da quadra de volei */
+.mastro {
+  bottom: 110px;
+  position: absolute;
+  left: 270px;
+}
+#dentro-quadra {
+  position: relative;
+  top: -38px;
+  left: 150px;
+  font-size: 22px;
+  color: white;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
