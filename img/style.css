@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap");
 body {
 }
 body p {
@@ -5,6 +6,13 @@ body p {
   font-family: "century gothic";
   font-size: 24pt;
   /* text-transform: uppercase; */
+}
+header h3 {
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 23pt;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 0px;
 }
 .grandient {
   background: linear-gradient(to right, #36d1dc, #5b86e5);
