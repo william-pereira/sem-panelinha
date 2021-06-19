@@ -1,69 +1,69 @@
 body {
-
 }
 body p {
-    color: #003366;
-    font-family: 'century gothic' ;
-    font-size: 24pt;
-    /* text-transform: uppercase; */
+  color: #003366;
+  font-family: "century gothic";
+  font-size: 24pt;
+  /* text-transform: uppercase; */
 }
 .grandient {
-    background: linear-gradient(to right, #36D1DC, #5b86e5);
-    background-size: 400%;
-    animation: gradiente 5s infinite;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  background-size: 400%;
+  margin-top: 14%;
+  animation: gradiente 5s infinite;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .imgg {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 #bola {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: -50px;
-    left: 270px;
-    animation: pulando 0.5s ease-out alternate infinite;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -50px;
+  left: 270px;
+  animation: pulando 0.5s ease-out alternate infinite;
 }
 
 #sombra {
-    border: 5px solid #312f2f;
-    border-radius: 50%;
-    width: 0px;
-    height: 0px;
-    position: relative;
-    top: -32px;
-    left: 274px;
-    background: #312f2f;
-    transform: skew(59deg, -48deg);
-    animation: sombra 0.5s ease-out alternate infinite;
+  border: 5px solid #312f2f;
+  border-radius: 50%;
+  width: 0px;
+  height: 0px;
+  position: relative;
+  top: -32px;
+  left: 274px;
+  background: #312f2f;
+  transform: skew(59deg, -48deg);
+  animation: sombra 0.5s ease-out alternate infinite;
 }
 @keyframes pulando {
-    to {
-        transform: translateY(-40px);
-    }
+  to {
+    transform: translateY(-40px);
+  }
 }
 
 @keyframes gradiente {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes sombra {
-    to {
-        border: 2px solid #312f2f;
-        top: -29px;
-        left: 278px;
-    }
+  to {
+    border: 2px solid #312f2f;
+    top: -29px;
+    left: 278px;
+  }
 }
