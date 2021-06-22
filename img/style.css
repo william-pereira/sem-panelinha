@@ -75,11 +75,11 @@ header h1 {
   position: absolute;
   left: 40%;
   top: 60%;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 #btn-call:hover {
   background-color: #312f2f;
-  transition: 0.5s;
+  transition: 0.3s;
   color: #e4e6e6;
 }
 
