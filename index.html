@@ -2,84 +2,28 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="reset.css">
-  <title>Sem-Panelinha</title>
-  <link rel="shortcut icon" href="img/favicon.ico" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Css - Animation</title>
 </head>
 
-<body class="fundo-gradient">
-  <header>
+<body class="grandient">
     <div class="container">
-      <div id="conjunto-img">
-        <a href="index.html"><img src="img/voley.png" alt="Bola de volei" class="img-header"></a>
-      </div>
-      <h1 id="titulo">#Sem-Panelinha</h1>
-    </div>
-  </header>
-
-  <main class="container">
-    <div class="container">
-      <div class="formulario">
-        <p id="validacao"> </p>
-        <label for="fname" class="formulario-nome">Nome</label>
-        <input type="text" id="nome" name="fname" type="reset" required="required">
-        <input type="submit" onclick="capturar()" class="btn-form" value="✓">
-        <div class="linha-form">
-          <p id="texto-form">Exclua o último nome inserido</p>
-          <input type="submit" onclick="remover()" id="btn-remover" class="btn-form" value="x">
+        <header class="landingpage-header">
+            <h1>Sem Panelinha</h1>
+            <h3>O sistema de sorteio de times mais justo do planeta!!</h3>
+        </header>
+        <div class="imgg">
+            <img src="img/quadra.png" alt="">
+            <div id="sombra"></div>
+            <img src="img/ball-volei.png" id="bola" alt="">
+            <a href="sorteio.html" id="btn-call">Vamos jogar  &#9658;</a>
         </div>
-      </div>
-      <div class="qtde-time">
-        <select id="opcoes" onclick="times()">
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-        </select>
-        <p class="formulario-nome" id="escolha-times">Dupla</p>
-      </div>
     </div>
-    <div class="resultados-nomes">
-      <div class="nomes-adicionados">
-        <p id="teste"></p>
-      </div>
-    </div>
-    <img src="img/mastro.png" class="mastro" alt="">
-    <img src="img/quadra.png" alt="">
-    <p id="dentro-quadra">Lista de Players <span id="numero-players"></span></p>
-    <div class="quantidade-por-time">
-      <input type="submit" class="btn-enviar" onclick="sortear()" value="Sortear">
-    </div>
-  </main>
-  <section>
-    <div class="container">
-      <div class="painel-times">
-        <div id="resultado_times">
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <p id="random"></p>
-    </div>
-  </footer>
-
 </body>
-<script src="script.js"></script>
-
-
-<!--   <p>Antes de realizar o sorteio dos times, insira o nome dos <span id="players">Players!</span></p>
-    <div class="subtitulo-resultados">
-      <p>Lista de Players <span id="numero-players"></span></p>
-    </div>
-  
-  
-  
-  -->
 
 </html>

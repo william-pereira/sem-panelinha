@@ -1,29 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
-body {
-}
-body p {
-  color: #003366;
-  font-family: "century gothic";
-  font-size: 24pt;
-  /* text-transform: uppercase; */
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
-header {
+.landingpage-header {
   align-self: center;
 }
-header h3 {
+.landingpage-header h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 44pt;
+  margin-bottom: 0px;
+  color: #1f1e1e;
+}
+.landingpage-header h3 {
   font-family: "Baloo 2", cursive;
   font-size: 23pt;
   color: #e4e6e6;
   text-transform: uppercase;
   margin-top: 0px;
-}
-header h1 {
-  font-family: "Roboto Slab", serif;
-  font-size: 44pt;
-  margin-bottom: 0px;
-  color: #1f1e1e;
 }
 .grandient {
   background: linear-gradient(to right, #36d1dc, #5b86e5);
@@ -31,12 +28,7 @@ header h1 {
   margin-top: 10%;
   animation: gradiente 5s infinite;
 }
-
-.container {
-  display: flex;
-  justify-content: space-around;
-}
-.imgg {
+.quadra-bola {
   margin-right: 40px;
 }
 

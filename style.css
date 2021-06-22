@@ -1,8 +1,12 @@
-.container {
+.container-sorteio {
   width: 1062px;
   margin: 0 auto;
 }
-
+body p {
+  color: #003366;
+  font-family: "century gothic";
+  font-size: 24pt;
+}
 section {
   background: #4762fb;
   margin-top: 70px;
@@ -22,10 +26,7 @@ footer {
   background-size: 300%, 300%;
   animation: colors 5s ease infinite;
 }
-header {
-  background: #47485028;
-  height: 110px;
-}
+
 #titulo {
   display: block;
   float: left;
