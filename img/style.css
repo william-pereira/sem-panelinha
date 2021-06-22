@@ -28,7 +28,7 @@ header h1 {
 .grandient {
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   background-size: 400%;
-  margin-top: 14%;
+  margin-top: 10%;
   animation: gradiente 5s infinite;
 }
 
@@ -62,8 +62,19 @@ header h1 {
   animation: sombra 0.5s ease-out alternate infinite;
 }
 
-button {
-  color: red;
+#btn-call {
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: bolder;
+  background-color: #e4e6e6;
+  border-radius: 13px;
+  color: #5493e3;
+  padding: 10px 30px 10px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  position: absolute;
+  left: 40%;
+  top: 60%;
 }
 
 @keyframes pulando {
