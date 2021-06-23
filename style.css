@@ -26,11 +26,10 @@ footer {
 }
 
 .background-index {
-  background: tomato;
+  background: rgb(243, 237, 236);
 }
 
 .nav-sorteio {
-  background: aqua;
   height: 120px;
   background: linear-gradient(to right, #36d1dc, #5b86e5);
   animation: gradiente 5s infinite;
@@ -57,9 +56,7 @@ footer {
   padding-top: 7px;
   padding-right: 40px;
 }
-#conjunto-img {
-  padding-right: 50px;
-}
+
 /* Sub-titulo */
 
 main > p {
@@ -257,7 +254,6 @@ main > p {
 #dentro-quadra {
   position: relative;
   top: -38px;
-  left: 150px;
   font-size: 22px;
   color: white;
 }
