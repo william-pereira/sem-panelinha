@@ -126,3 +126,7 @@ document.getElementById('nome').addEventListener('keydown', function(event){
     capturar();
   }
 });
+
+btncapturar.addEventListener('DOMContentLoaded', () => {
+  teste.classList.toggle('animar');
+})

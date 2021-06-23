@@ -27,7 +27,7 @@
         <p id="validacao"> </p>
         <label for="fname" class="formulario-nome">Nome</label>
         <input type="text" id="nome" name="fname" type="reset" required="required">
-        <input type="submit" onclick="capturar()" class="btn-form" value="✓">
+        <input type="submit" onclick="capturar()" class="btn-form" id="btncapturar" value="✓">
         <div class="linha-form">
           <p id="texto-form">Exclua o último nome inserido</p>
           <input type="submit" onclick="remover()" id="btn-remover" class="btn-form" value="x">
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="quantidade-por-time">
-      <input type="submit" class="btn-enviar" onclick="sortear()" value="Sortear">
+      <a href="#resultado_times" style="text-decoration: none;"><input type="submit" class="btn-enviar" onclick="sortear()" value="Sortear"></a>
     </div>
   </main>
   <section>
