@@ -5,7 +5,13 @@
   display: flex;
   justify-content: space-around;
 }
-
+.grandient {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  background-size: 400%;
+  margin-top: 10%;
+  animation: gradiente 5s infinite;
+}
+/* Header */
 .landingpage-header {
   align-self: center;
 }
@@ -22,12 +28,7 @@
   text-transform: uppercase;
   margin-top: 0px;
 }
-.grandient {
-  background: linear-gradient(to right, #36d1dc, #5b86e5);
-  background-size: 400%;
-  margin-top: 10%;
-  animation: gradiente 5s infinite;
-}
+/* Quadra a direita */
 .quadra-bola {
   margin-right: 40px;
 }
@@ -53,7 +54,7 @@
   transform: skew(59deg, -48deg);
   animation: sombra 0.5s ease-out alternate infinite;
 }
-
+/* Call to action */
 #btn-call {
   text-decoration: none;
   font-size: 16pt;
