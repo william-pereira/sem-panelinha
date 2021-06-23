@@ -278,3 +278,18 @@ main > p {
     background-position: 0% 50%;
   }
 }
+
+/* Animations - Plugin Origamid */
+
+[data-anime] {
+  opacity: 0;
+  transform: rotate(700deg);
+}
+.fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 900ms, transform 800ms;
+}

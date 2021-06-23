@@ -1,4 +1,3 @@
-
 let nomes = [];
 let sorteio = [];
 var divisao = [];
@@ -130,3 +129,6 @@ document.getElementById('nome').addEventListener('keydown', function(event){
 btncapturar.addEventListener('DOMContentLoaded', () => {
   teste.classList.toggle('animar');
 })
+if (window.SimpleAnime) {
+    new SimpleAnime();    
+}
