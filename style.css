@@ -97,7 +97,12 @@ main > p {
   min-height: 202px;
   margin-top: 60px;
   width: 600px;
+  background: #cfe2ff;
   margin: 0 auto;
+  box-shadow: 1px 2px 2px 0px #4ca6e2;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 11px;
 }
 .resultados-nomes > p {
   font-family: "Century Gothic", "Times", "serif";
@@ -137,7 +142,6 @@ main > p {
 }
 .div-times {
   margin-right: 84px;
-  width: 128px;
   margin-top: 40px;
   color: white;
   font-size: 30px;
