@@ -22,32 +22,34 @@
   </header>
 
   <main class="container-sorteio">
-    <div class="formulario">
-      <p id="validacao"> </p>
-      <label for="fname" class="formulario-nome">Nome</label>
-      <input type="text" id="nome" name="fname" type="reset" required="required">
-      <input type="submit" onclick="capturar()" class="btn-form" value="✓">
-      <div class="linha-form">
-        <p id="texto-form">Exclua o último nome inserido</p>
-        <input type="submit" onclick="remover()" id="btn-remover" class="btn-form" value="x">
+    <div class="centralizar">
+      <div class="formulario">
+        <p id="validacao"> </p>
+        <label for="fname" class="formulario-nome">Nome</label>
+        <input type="text" id="nome" name="fname" type="reset" required="required">
+        <input type="submit" onclick="capturar()" class="btn-form" value="✓">
+        <div class="linha-form">
+          <p id="texto-form">Exclua o último nome inserido</p>
+          <input type="submit" onclick="remover()" id="btn-remover" class="btn-form" value="x">
+        </div>
+      </div>
+      <div class="qtde-time">
+        <select id="opcoes" onclick="times()">
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+        <p class="formulario-nome" id="escolha-times">Dupla</p>
       </div>
     </div>
-    <div class="qtde-time">
-      <select id="opcoes" onclick="times()">
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-      </select>
-      <p class="formulario-nome" id="escolha-times">Dupla</p>
-    </div>
+    <p id="dentro-quadra">Lista de Players <span id="numero-players"></span></p>
     <div class="resultados-nomes">
       <div class="nomes-adicionados">
         <p id="teste"></p>
       </div>
     </div>
-    <p id="dentro-quadra">Lista de Players <span id="numero-players"></span></p>
     <div class="quantidade-por-time">
       <input type="submit" class="btn-enviar" onclick="sortear()" value="Sortear">
     </div>

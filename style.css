@@ -47,7 +47,9 @@ footer {
 }
 .titulo-times {
   text-transform: uppercase;
-  color: white;
+  color: #1f1e1e;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
 }
 .img-header {
   width: 100px;
@@ -76,7 +78,10 @@ main > p {
 .subtitulo-resultados p span {
   padding-left: 20px;
 }
-
+.centralizar {
+  margin: 0 auto;
+  display: block;
+}
 /* Conteúdo */
 .formulario {
   float: left;
@@ -253,10 +258,11 @@ main > p {
   left: 270px;
 }
 #dentro-quadra {
-  position: relative;
-  top: -38px;
   font-size: 22px;
-  color: white;
+  text-align: center;
+  color: #4762fb;
+  margin-bottom: 20px;
+  clear: both;
 }
 
 @keyframes colors {
