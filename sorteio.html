@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="landingpage.css">
   <link rel="stylesheet" href="reset.css">
   <title>Sem-Panelinha</title>
   <link rel="shortcut icon" href="img/favicon.ico" />
 </head>
 
-<body class="fundo-gradient">
-  <header>
-    <div class="container">
+<body class="background-index">
+  <header class="nav-sorteio">
+    <div class="container-sorteio">
       <div id="conjunto-img">
         <a href="index.html"><img src="img/voley.png" alt="Bola de volei" class="img-header"></a>
       </div>
@@ -49,7 +50,7 @@
       </div>
     </div>
     <img src="img/mastro.png" class="mastro" alt="">
-    <img src="img/quadra.png" alt="">
+    <img src="img/quadra-sorteio.png" alt="">
     <p id="dentro-quadra">Lista de Players <span id="numero-players"></span></p>
     <div class="quantidade-por-time">
       <input type="submit" class="btn-enviar" onclick="sortear()" value="Sortear">
@@ -68,7 +69,6 @@
       <p id="random"></p>
     </div>
   </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
   <script src="script.js"></script>
 </body>
 

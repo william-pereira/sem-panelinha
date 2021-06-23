@@ -1,8 +1,7 @@
-.container-sorteio {
-  width: 1062px;
-  margin: 0 auto;
-}
-body p {
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
+
+body > p {
   color: #003366;
   font-family: "century gothic";
   font-size: 24pt;
@@ -21,21 +20,22 @@ footer {
 }
 /* Header - Nav */
 
-.fundo-gradient {
-  background: linear-gradient(45deg, #dddddd, #125d98, #3c8dad, #f5a962);
-  background-size: 300%, 300%;
-  animation: colors 5s ease infinite;
+.background-index {
+  background: tomato;
+}
+
+.nav-sorteio {
+  background: aqua;
+  height: 120px;
 }
 
 #titulo {
   display: block;
   float: left;
-  padding-right: 20px;
-  font-family: "Bell MT", Times, serif;
-  font-size: 40px;
-  text-transform: uppercase;
-  padding-top: 30px;
-  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  font-size: 44pt;
+  margin-bottom: 0px;
+  color: #1f1e1e;
 }
 .titulo-times {
   text-transform: uppercase;
