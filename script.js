@@ -1,3 +1,4 @@
+
 let nomes = [];
 let sorteio = [];
 var divisao = [];
