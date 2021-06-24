@@ -38,7 +38,7 @@ footer {
   background-size: 400%;
 }
 
-#titulo {
+#titulo a {
   display: block;
   float: left;
   font-family: "Roboto Slab", serif;
@@ -89,7 +89,7 @@ main > p {
   float: left;
   margin-top: 57px;
   width: 450px;
-  margin-left: 90px;
+  margin-left: 229px;
   margin-bottom: 35px;
 }
 .resultados-nomes {
@@ -287,7 +287,6 @@ main > p {
 
 [data-anime] {
   opacity: 0;
-  transform: rotate(700deg);
 }
 .fadeInDown {
   transform: translate3d(0, -20px, 0);
